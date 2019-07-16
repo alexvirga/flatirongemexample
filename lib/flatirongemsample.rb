@@ -1,6 +1,10 @@
 require "flatirongemsample/version"
 
-module Flatirongemsample
+module Flatiron
   class Error < StandardError; end
-  # Your code goes here...
+  
+  def self.say_hi
+    puts "hi"
+  end 
+
 end
